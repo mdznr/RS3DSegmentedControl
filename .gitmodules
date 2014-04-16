@@ -1,0 +1,6 @@
+[submodule "AUIAnimatedText"]
+	path = AUIAnimatedText
+	url = https://github.com/mdznr/AUIAnimatedText.git
+[submodule "iCarousel"]
+	path = iCarousel
+	url = https://github.com/mdznr/iCarousel.git

@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>AB3C3B58-D8AD-4F4D-A3C9-F31CF92A0936</string>
+	<string>BB399AC5-B6F3-487F-937A-C6CDC3E2EA6B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>RS3DSegmentedControl</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B59B0CC6-6267-4435-9E82-65574DD40BAB</key>
+		<key>95B16032-1599-4E05-8C22-11697030769E</key>
 		<string>https://github.com/rsoffer/RS3DSegmentedControl.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RS3DSegmentedControl.xcworkspace</string>
+	<string>RS3DSegmentedControl.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B59B0CC6-6267-4435-9E82-65574DD40BAB</key>
-		<string>..</string>
+		<key>95B16032-1599-4E05-8C22-11697030769E</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/rsoffer/RS3DSegmentedControl.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B59B0CC6-6267-4435-9E82-65574DD40BAB</string>
+	<string>95B16032-1599-4E05-8C22-11697030769E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B59B0CC6-6267-4435-9E82-65574DD40BAB</string>
+			<string>95B16032-1599-4E05-8C22-11697030769E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>RS3DSegmentedControl</string>
 		</dict>

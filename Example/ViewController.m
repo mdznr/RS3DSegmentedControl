@@ -44,6 +44,7 @@
     
     self.segmentedControl = [[RS3DSegmentedControl alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 64)];
     _segmentedControl.delegate = self;
+	_segmentedControl.dataSource = self;
     [self.view addSubview:_segmentedControl];
     
     displayLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 60)];
@@ -52,14 +53,14 @@
 }
 
 
-- (NSUInteger)numberOfSegmentsIn3DSegmentedControl:(RS3DSegmentedControl *)segmentedControl
+- (NSUInteger)numberOfSegmentsInSegmentedControl:(RS3DSegmentedControl *)segmentedControl
 {
     return 6;
 }
 
-- (NSString *)titleForSegmentAtIndex:(NSUInteger)segmentIndex segmentedControl:(RS3DSegmentedControl *)segmentedControl
+- (NSString *)segmentedControl:(RS3DSegmentedControl *)segmentedControl titleForSegmentAtIndex:(NSUInteger)index
 {
-    switch (segmentIndex) {
+    switch (index) {
         case 0:
             return @"Rock";
         case 1:
@@ -78,10 +79,9 @@
     }
 }
 
-
-- (void)didSelectSegmentAtIndex:(NSUInteger)segmentIndex segmentedControl:(RS3DSegmentedControl *)segmentedControl
+- (void)segmentedControl:(RS3DSegmentedControl *)segmentedControl didSelectSegmentAtIndex:(NSUInteger)index
 {
-    switch (segmentIndex) {
+    switch (index) {
         case 0:
             displayLabel.text = @"Rock";
             break;

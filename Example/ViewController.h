@@ -31,8 +31,8 @@
 
 #import "RS3DSegmentedControl.h"
 
-@interface ViewController : UIViewController <RS3DSegmentedControlDelegate>
+@interface ViewController : UIViewController <RS3DSegmentedControlDelegate, RS3DSegmentedControlDataSource>
 
-@property(nonatomic,strong) RS3DSegmentedControl *segmentedControl;
+@property (nonatomic, strong) RS3DSegmentedControl *segmentedControl;
 
 @end
